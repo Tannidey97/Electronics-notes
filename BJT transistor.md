@@ -14,3 +14,5 @@ Finally, the electrons travel through the external circuit and return to the emi
 ## Currents
 
 The emitter current is what's injected into the base, and it splits into a small part (I_B) and a large part (I_C). So I_E = I_C + I_B, and I_E is only slightly larger than I_C.
+
+   I_E = I_C + I_B
