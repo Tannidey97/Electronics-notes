@@ -19,16 +19,23 @@ The emitter current is what's injected into the base, and it splits into a small
 
 $$I_E = I_C + I_B$$
 
-# Cut off
+# Cutoff
 
 A transistor is in cutoff when the base current is zero ($$I_B$$ = 0). This happens when the base-emitter (BE) junction is not forward biased enough to conduct, meaning $$V_{BE}$$ is below about 0.7 V for silicon. 
 Under this condition, only a very small collector leakage current, $$I_{CEO}$$, flows. It is caused mainly by thermally produced carriers. The subscript CEO means collector-to-emitter with the base open. Because $$I_{CEO}$$ is extremely small, it is usually neglected in circuit analysis. So $$I_C$$ ≈ 0, and the whole supply voltage appears across the transistor:
 
-**$$V_{CE}$$ ≈ $$V_{CC}$$**
+**$$V_{CE}$$≈$$V_{CC}$$**
 
 In cutoff, the BE junction is not forward biased (it is either unbiased or reverse biased), and the base-collector (BC) junction is reverse biased.The transistor behaves like an open switch (OFF).
 
+# Saturation 
 
+If $$V_{CC}$$ and $$R_C$$ are fixed and never change. Only the base supply $$V_{BB}$$ is increased. When $$V_{BB}$$ increases, the base-emitter junction is pushed harder in the forward direction, so the base current I_B increases. As $$I_B$$ increases, the heavily doped emitter supplies more current carriers (free electrons) into the base.
 
+The base is thin, so most of these electrons pass through to the collector. This is why the collector current depends on the base current: $$I_C$$ = $$β_{DC}$$ × $$I_B$$. When I_B increases, $$I_C$$ also increases.
 
+The collector current flows through $$R_C$$ and produces a voltage drop across it ($$I_C$$ × $$R_C$$). Since $$V_{CC}$$ is fixed, a larger drop across $$R_C$$ leaves less voltage across the transistor, so $$V_{CE}$$ decreases. This is given by $$V_{CE}$$ = $$V_{CC}$$ − $$I_C$$ × $$R_C$$.
 
+$$V_{CE}$$ keeps falling until it reaches its saturation value, $$V_{CE}$$(sat), which is only a few tenths of a volt. At this point the base-collector junction becomes forward biased. Now $$I_C$$ cannot increase any further, even if $$I_B$$ keeps increasing, because $$I_C$$ is limited by $$V_{CC}$$ and $$R_C$$ and not by $$I_B$$. Because of this, the relation $$I_C$$ = $$β_{DC}$$ × $$I_B$$ is no longer valid in saturation.
+
+In saturation, both the base-emitter and base-collector junctions are forward biased, V_CE is almost zero, and I_C is at its maximum. The transistor acts like a closed switch (ON).
