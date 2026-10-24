@@ -21,10 +21,13 @@ $$I_E = I_C + I_B$$
 
 # Cut off
 
-A transistor is in cutoff when the base current is zero ($$I_B$$ = 0). This happens when the base-emitter (BE) junction is not forward biased enough to conduct, meaning V_BE is below about 0.7 V for silicon. In the book's figure, the base lead is simply left open.
-Under this condition, only a very small collector leakage current, I_CEO, flows. It is caused mainly by thermally produced carriers. The subscript CEO means collector-to-emitter with the base open. Because I_CEO is extremely small, it is usually neglected in circuit analysis. So I_C ≈ 0, and the whole supply voltage appears across the transistor:
-V_CE ≈ V_CC
-In cutoff, the BE junction is not forward biased (it is either unbiased or reverse biased), and the base-collector (BC) junction is reverse biased. The book's figure caption simplifies this by calling both junctions reverse biased. The transistor behaves like an open switch (OFF).
+A transistor is in cutoff when the base current is zero ($$I_B$$ = 0). This happens when the base-emitter (BE) junction is not forward biased enough to conduct, meaning $$V_{BE}$$ is below about 0.7 V for silicon. 
+Under this condition, only a very small collector leakage current, $$I_{CEO}$$, flows. It is caused mainly by thermally produced carriers. The subscript CEO means collector-to-emitter with the base open. Because $$I_{CEO}$$ is extremely small, it is usually neglected in circuit analysis. So $$I_C$$ ≈ 0, and the whole supply voltage appears across the transistor:
+
+**$$V_{CE}$$ ≈ $$V_{CC}$$**
+
+In cutoff, the BE junction is not forward biased (it is either unbiased or reverse biased), and the base-collector (BC) junction is reverse biased.The transistor behaves like an open switch (OFF).
+
 
 
 
