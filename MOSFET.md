@@ -16,7 +16,8 @@ Its main idea is:
 **A voltage controls the conductivity of a semiconductor channel, which controls the current.**  
 
 ## Basic construction of a MOSFET
-https://github.com/Tannidey97/Electronics-notes/blob/main/MOSFET%20Diagram.jpg
+https://github.com/Tannidey97/Electronics-notes/blob/main/MOSFET%20Diagram.jpg  
+
 **Gate(G)** - **Controls the conductivity of the channel**  
 
 **Drain(D)** - **Terminal through which conventional current enters the channel in typical n-channel operation**  
