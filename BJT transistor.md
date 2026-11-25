@@ -32,7 +32,7 @@ https://github.com/Tannidey97/Electronics-notes/blob/main/Schematic%20symbol.jpg
 
 Both type of transistors follows the sane current formula :  
 
-***$I_E = I_C + I_B$***
+***$$I_E = I_C + I_B$$***
 
 # Cutoff
 
