@@ -11,7 +11,7 @@ The point where the load line meets the output curve for the circuit's base curr
 A transistor amplifier uses two types of voltage: DC voltage and AC signal voltage. The DC supply ($V_CC$) and biasing establish the transistor's operating condition, while the AC input signal is the small, changing voltage that needs to be amplified.
 When only DC supply is applied and no AC signal is present, the transistor still conducts a steady collector current ($I_CQ$) and maintains a steady collector-emitter voltage ($V_CEQ$). These resting values are called the Q-point (Quiescent Point), located at the intersection of the DC load line and transistor characteristic curve.
 When an AC signal is applied, it combines with the DC bias. Therefore, the total voltage is the sum of both components:  
-**$v_BE$ = $V_BE$ + $v_{be}$**
+**$v_BE$ = $V_{BE}$ + $v_{be}$**
 This causes the transistor current and voltage to vary around the Q-point, producing an amplified output signal.
 
 # How Amplification Happens 
