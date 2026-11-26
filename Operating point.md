@@ -1,10 +1,10 @@
 # Loadline & Q-point 
 
-**A DC load line is a straight line drawn on the transistor's output characteristic graph ($I_C$ vs $V_CE$) that shows every combination of $I_C$ and $V_CE$ the circuit allows, given the supply voltage (VCC) and the collector resistor (RC). Its two ends are cutoff ($I_C$ = 0, $V_CE$ = $V_{CC}$) and saturation (IC ≈ VCC/RC, VCE ≈ 0), and the Q-point lies on this line.**  
+**A DC load line is a straight line drawn on the transistor's output characteristic graph ($I_C$ vs $V_{CE}$) that shows every combination of $I_C$ and $V_{CE}$ the circuit allows, given the supply voltage (VCC) and the collector resistor ($R_C$). Its two ends are cutoff ($I_C$ = 0, $V_{CE}$ = $V_{CC}$) and saturation ($I_C$ ≈ $V_{CC}$/$R_C$, $V_{CE}$ ≈ 0), and the Q-point lies on this line.**  
 
 The point where the load line meets the output curve for the circuit's base current is called the quiescent point (Q-point). At this point, both the circuit's constraint and the transistor's behavior are satisfied, so it gives the actual DC collector current and collector-emitter voltage. Placing it near the middle of the active region lets the signal swing in both directions without clipping.
 
-***In short, The Q-point (quiescent point) is the DC operating point of a transistor: the steady values of collector current (IC) and collector-emitter voltage ($V_{CE}$) when the bias is applied and no input signal is present.***  
+***In short, The Q-point (quiescent point) is the DC operating point of a transistor: the steady values of collector current (I_C) and collector-emitter voltage (V_{CE}) when the bias is applied and no input signal is present.***  
 
 ## The Q-point 
 
@@ -30,7 +30,7 @@ We take the output from the collector. So the output is a bigger copy of the inp
 
 ## Cutoff & Saturation 
 
-These are the two ends of the track the output moves on. At cutoff, IB is zero, so IC is zero, and the collector sits at its highest voltage, VCC. At saturation, IC is at its maximum and the collector voltage is almost zero. IC stops rising there because the outside circuit limits it: RC has used up nearly all of VCC, so no voltage is left to push more current. In the active region the transistor decides IC, and in saturation the circuit decides IC.
+These are the two ends of the track the output moves on. At cutoff, IB is zero, so IC is zero, and the collector sits at its highest voltage, VCC. At saturation, IC is at its maximum and the collector voltage is almost zero. IC stops rising there because the outside circuit limits it: RC has used up nearly all of VCC, so no voltage is left to push more current. In the active region the transistor decides $I_C$, and in saturation the circuit decides IC.
 
 ## Why the middle point 
 The output can only move between those two ends. If the Q-point is in the middle, the wiggle has equal room both ways and the response is even, so the output is an exact bigger copy. 
