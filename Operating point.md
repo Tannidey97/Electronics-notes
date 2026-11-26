@@ -33,6 +33,9 @@ We take the output from the collector. So the output is a bigger copy of the inp
 These are the two ends of the track the output moves on. At cutoff, IB is zero, so IC is zero, and the collector sits at its highest voltage, VCC. At saturation, IC is at its maximum and the collector voltage is almost zero. IC stops rising there because the outside circuit limits it: RC has used up nearly all of VCC, so no voltage is left to push more current. In the active region the transistor decides $I_C$, and in saturation the circuit decides IC.
 
 ## Why the middle point 
+
+https://github.com/Tannidey97/Electronics-notes/blob/main/DC%20load%20line%20.jpg
+
 The output can only move between those two ends. If the Q-point is in the middle, the wiggle has equal room both ways and the response is even, so the output is an exact bigger copy. 
 
 • If the Q-point is too high (too much IC at rest), the highest IB pushes IC to its maximum, and the collector voltage hits its lowest point (saturation). The bottom of the output wave is flat.
