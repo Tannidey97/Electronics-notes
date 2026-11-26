@@ -36,6 +36,8 @@ These are the two ends of the track the output moves on. At cutoff, IB is zero, 
 
 https://github.com/Tannidey97/Electronics-notes/blob/main/DC%20load%20line%20.jpg
 
+https://github.com/Tannidey97/Electronics-notes/blob/main/Saturation%20%26%20Cutoff%20.jpg
+
 The output can only move between those two ends. If the Q-point is in the middle, the wiggle has equal room both ways and the response is even, so the output is an exact bigger copy. 
 
 • If the Q-point is too high (too much IC at rest), the highest IB pushes IC to its maximum, and the collector voltage hits its lowest point (saturation). The bottom of the output wave is flat.
